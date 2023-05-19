@@ -1,0 +1,19 @@
+import React from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { MdOutlineRestaurantMenu } from 'react-icons/md'
+
+import images from '../../constants/images'
+import './Navbar.css'
+
+const Navbar = () => (
+  <nav className='app_nav'>
+    <div className="app_navbar-logo">
+      <img src={images.gericht} alt="app logo" />
+    </div>
+    <ul className='app_navbar-links'>
+      <li className='p_opensans'></li>
+    </ul>
+  </nav>
+);
+
+export default Navbar;
